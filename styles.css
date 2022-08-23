@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #000000;
+    background-color: #f5f5f5;
+    font-family: Handlee;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('https://1.bp.blogspot.com/-TEafUuqpP2g/YTIOvr_T2lI/AAAAAAAA7Fw/rJRYqb9iqZc5WbBtIdIF_OrGYBr5gvmAgCLcBGAsYHQ/s16000/bg.png');
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM8FaD9lyA4wEQfvsgGthv1U-Ql1Y_vE0TvdyNuE1MdNW10iiQSPl_kg0TEymSIcFR2JgBIWuWckIZX9wG2Qzpp2YKp1REbsAz4XUeY4nk8A8f4D6R949UDLtGIO12hgJowBa-OafNy4cUzIzzbs-fEtEKhQkOr9t1LtCWUKFHlkTdsEe2SAA2JUGX/s16000/image_processing20210528-29044-wrqyaj.gif");*/
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c02eff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b406ff;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.main-container {
+    margin: 8px;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    user-select: none;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.technical-events-container-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.technical-events-container {
+    padding: 18px;
+    border-radius: 14px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.event-cards {
+    border-radius: 14px;
+    margin: 8px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    min-width: 300px;
+    padding: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.event-card-icons {
+    height: 4.5em;
+    width: 4.5rem;
+    user-select: none;
+}
+
+.cards-container-heading {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cards-container-description {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+/*.cards-container-coordinator {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}*/
+
+.cards-container-registration {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.b-center {
+    text-align: center;
+}
+
+.register-button {
+    color: #ffffff;
+    background-color: #000000;
+    height: 45px;
+    width: 140px;
+    padding: auto;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 14px;
+    border-width: 0px;
+    vertical-align: middle;
+    text-decoration: none;
+    user-select: none;
+}
+
+.cards-forqueries-container {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 14px;
+    user-select: none;
+}
+
+.for-queries-heading {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.for-queries-icons-container {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 116, 119, 0.3);
+    margin-top: -20px;
+    border-radius: 14px;
+}
+
+.for-queries-icon-item {
+    padding: 14px;
+    text-align: center;
+}
+
+.event-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+    padding: 18px;
+    margin-top: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact-icons {
+    text-align: left;
+    user-select: none;
+}
+
+.ins {
+    margin: 8px;
+    font-size: 40px;
+}
+
+.mail {
+    margin: 8px;
+    font-size: 40px;
+}
+
+.tab-space {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+/** {
+    outline: 1px solid red;
+}*/
